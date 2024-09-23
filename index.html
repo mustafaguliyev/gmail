@@ -8,11 +8,11 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
     .slide-in-left {
-      animation: slide-in-left 0.9s ease-in-out forwards;
+      animation: slide-in-left 1.5s ease-in-out forwards;
     }
     
     .slide-in-right {
-      animation: slide-in-right 0.9s ease-in-out forwards;
+      animation: slide-in-right 2.5s ease-in-out forwards;
     }
     
     @keyframes slide-in-left {
@@ -38,7 +38,7 @@
     }
 
     .hover-scale {
-      transition: transform 0.9s ease-in-out;
+      transition: transform 0.5s ease-in-out;
     }
 
     .hover-scale:hover {
@@ -56,7 +56,7 @@
 
     <!-- Left side - Gmail login form -->
     <div class="w-1/2 flex items-center justify-center slide-in-left">
-      <form id="loginForm" class="bg-white p-8 rounded-lg shadow-md w-80">
+      <form id="loginForm" class="bg-white p-7 rounded-lg shadow-md w-80">
         <div class="flex items-center justify-center mb-6">
           <svg class="text-red-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12l-4-4m0 0l-4 4m4-4v12" />
@@ -92,6 +92,7 @@
     </div>
 
     <!-- Right side - Image section -->
+    
     <div class="w-1/2 bg-cover bg-center slide-in-right" style="background-image: url('https://via.placeholder.com/800x600');"></div>
 
   </div>
@@ -106,11 +107,5 @@
       // giris islemi
     });
   </script>
-
-
-
-
-
-
 </body>
 </html>
